@@ -1,0 +1,10 @@
+.contact {
+    background-color: rgba(41,138,59,.25) !important;
+    border: 1px dashed var(--color-1a) !important;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    text-align: center !important;
+    width: 100%;
+    border-radius: 16px;
+}

@@ -1,0 +1,16 @@
+.textForm{
+    color: var(--color-4) !important;
+    text-align: left !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Form.Label{
+    text-align: left;
+    color:  var(--color-4) !important;
+}
+
+label{
+    margin-left: .5rem;
+}
+
