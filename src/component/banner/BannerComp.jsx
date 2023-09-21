@@ -1,5 +1,5 @@
 import './HeaderComp.css'
-import {titleBanner,subTitle} from '../../utils/constvar.js'; 
+import {titleBanner,subTitle} from '../../constvar.js'; 
 
 export const HeaderComp = () => {
     return (

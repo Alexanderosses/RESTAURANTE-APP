@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 // OWN
 import './CardComp.css';
-import data from '../../utils/menu.json'; 
+import data from '../../menu.json'; 
 import { Link } from 'react-router-dom';
 
 

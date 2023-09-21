@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import './MenuComp.css';
-import data from '../../utils/menu.json'; 
+import data from '../../menu.json'; 
 
 
 export const MenuComp = () => {

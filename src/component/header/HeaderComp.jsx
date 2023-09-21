@@ -1,11 +1,11 @@
 // BOOTSTRAP
-import Container from 'react-bootstrap/Container';
+//import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 // OWN
 import './HeaderComp.css'
-import {menuList} from '../../utils/constvar.js'; 
+import {menuList} from '../../constvar.js'; 
 import logo from '../../assets/logo-app.png';
 import { Link } from 'react-router-dom';
 

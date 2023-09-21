@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import { menuPlate } from '../utils/constvar.js'; 
+import { menuPlate } from '../constvar.js'; 
 import { ContactComp } from "../component/contact/ContactComp"
 import { FooterComp } from "../component/footer/FooterComp"
 
