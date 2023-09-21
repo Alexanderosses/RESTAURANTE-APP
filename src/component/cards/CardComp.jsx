@@ -20,7 +20,7 @@ export const CardComp = () => {
           {firstFourPlatos.map((platos, idx) => (
             <Col key={idx}>
               <div>                  
-                <Link to={`/PlateDetails/${platos.item}`}>
+                <Link to={`/APP-RESTAURANTE/PlateDetails/${platos.item}`}>
                   <Card className='bodyCard h-100'>
                     <Card.Body className='d-flex flex-column'>
                       <Row>

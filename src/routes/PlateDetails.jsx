@@ -17,9 +17,9 @@ export const PlateDetails = () => {
 
     return (
         <div className="mt-5">
-            <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Los especiales <br />para hoy</h2>
-
+            <div className="ptop"></div>
             <div className='container'>    
+            <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú<br/>El detalle</h2>
                 <Card className='bodyCard h-100'>
                     <Card.Body className='d-flex flex-column'>
                         <Row>
