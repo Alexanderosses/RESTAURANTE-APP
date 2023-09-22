@@ -2,12 +2,11 @@
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import { Link } from 'react-router-dom';
 
 // OWN
 import './CardComp.css';
 import data from '../../menu.json'; 
-import { Link } from 'react-router-dom';
-
 
 export const CardComp = () => {
   // Obtén los primeros 4 elementos del array menuplate
