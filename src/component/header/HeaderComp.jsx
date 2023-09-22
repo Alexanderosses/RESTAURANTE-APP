@@ -7,9 +7,11 @@ import { Link } from 'react-router-dom';
 import './HeaderComp.css'
 import {menuList} from '../../constvar.js'; 
 import logo from '../../assets/logo-app.png';
+import PropTypes from 'prop-types';
 
 export const HeaderComp = ( {menuFrase} ) => {
-    const frase = menuFrase[0]?.item || '';
+    const frase = menuFrase && menuFrase.length > 0 ? menuFrase[0].item : '';
+
     return (
         <div className='container-fluid g-0 fixed'>
             <Navbar.Brand className='headerLogo justify-content-center'>
@@ -36,3 +38,12 @@ export const HeaderComp = ( {menuFrase} ) => {
         </div>
     );
 };
+
+HeaderComp.propTypes = {
+    menuFrase: PropTypes.arrayOf(
+      PropTypes.shape({
+        item: PropTypes.string.isRequired,
+        // Otros campos si los hay
+      })
+    ),
+  };
