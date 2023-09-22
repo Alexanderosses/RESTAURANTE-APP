@@ -65,7 +65,7 @@ export const AboutComp = () => {
             </div>
 
             <div className='cardButton mb-5'>
-                <Link to={"/APP-RESTAURANTE/Reservation"}>
+                <Link to={"/Reservation"}>
                     <button className='button'>Reserva tu mesa</button>
                 </Link>
             </div>                    

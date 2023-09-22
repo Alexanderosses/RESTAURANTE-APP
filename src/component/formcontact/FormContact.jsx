@@ -21,7 +21,7 @@ export const FormContact = () => {
   return (
 
     <div className='container'>
-        <Form noValidate validated={validated} onSubmit={handleSubmit}>
+        <Form noValidate validated={validated} onSubmit={handleSubmit} className="needs-validation">
 
             <Row className="mb-3">        
 
