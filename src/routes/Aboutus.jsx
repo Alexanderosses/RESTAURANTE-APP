@@ -1,6 +1,6 @@
-import { AboutComp } from "../component/about/AboutComp"
-import { ContactComp } from "../component/contact/ContactComp"
-import { FooterComp } from "../component/footer/FooterComp"
+import { AboutComp } from "../component/about/AboutComp";
+import { ContactComp } from "../component/contact/ContactComp";
+import { FooterComp } from "../component/footer/FooterComp";
 
 export const Aboutus = () => {
   return (

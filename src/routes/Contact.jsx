@@ -1,6 +1,6 @@
-import { ContactComp } from "../component/contact/ContactComp"
-import { FooterComp } from "../component/footer/FooterComp"
-import { FormContact } from "../component/formcontact/FormContact"
+import { ContactComp } from "../component/contact/ContactComp";
+import { FooterComp } from "../component/footer/FooterComp";
+import { FormContact } from "../component/formcontact/FormContact";
 
 export const Contact = () => {
   return (

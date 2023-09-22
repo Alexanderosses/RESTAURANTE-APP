@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { menuPlate } from '../constvar.js'; 
-import { ContactComp } from "../component/contact/ContactComp"
-import { FooterComp } from "../component/footer/FooterComp"
+import { ContactComp } from "../component/contact/ContactComp";
+import { FooterComp } from "../component/footer/FooterComp";
 
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';

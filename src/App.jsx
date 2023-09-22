@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { HeaderComp } from './component/header/HeaderComp.jsx';
 import { Home } from './routes/Home';

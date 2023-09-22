@@ -1,6 +1,6 @@
-import { MenuComp } from "../component/menu/MenuComp"
-import { ContactComp } from "../component/contact/ContactComp"
-import { FooterComp } from "../component/footer/FooterComp"
+import { MenuComp } from "../component/menu/MenuComp";
+import { ContactComp } from "../component/contact/ContactComp";
+import { FooterComp } from "../component/footer/FooterComp";
 
 export const Menu = () => {
   return (
