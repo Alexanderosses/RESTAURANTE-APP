@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import './MenuComp.css';
+import '../../app.css';
 import data from '../../menu.json'; 
 
 
@@ -17,7 +17,7 @@ export const MenuComp = () => {
               <Col key={idx}>
                 
                 <div>                  
-                  <Link to={`/APP-RESTAURANTE/PlateDetails/${platos.item}`}>
+                  <Link to={`/PlateDetails/${platos.item}`}>
                     <Card className='bodyCard h-100'>
                       <Card.Body className='d-flex flex-column'>
                         

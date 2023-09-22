@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
 // OWN
-import './HeaderComp.css';
+import '../../app.css';
 import {menuList} from '../../constvar.js'; 
 import logo from '../../assets/logo-app.png';
 import PropTypes from 'prop-types';
@@ -15,7 +15,7 @@ export const HeaderComp = ( {menuFrase} ) => {
     return (
         <div className='container-fluid g-0 fixed'>
             <Navbar.Brand className='headerLogo justify-content-center'>
-                <Link to='/APP-RESTAURANTE/'>
+                <Link to='/'>
                     <img src={logo} alt='Imagen Logo' className='logoHeader' />
                 </Link>
                 <div className='frase'>{frase}</div>

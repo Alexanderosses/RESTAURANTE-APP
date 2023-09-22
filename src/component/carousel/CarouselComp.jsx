@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 // OWN
-import './CarouselComp.css';
+import '../../app.css';
 import imagenUno from '../../assets/banner-1.webp';
 import imagenDos from '../../assets/banner-2.webp';
 import imagenTres from '../../assets/banner-3.webp';

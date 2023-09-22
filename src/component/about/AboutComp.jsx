@@ -1,10 +1,11 @@
 // OWN
-import './AboutComp.css';
+import '../../app.css';
 import marcelo from '../../assets/personal/marcelo.png';
 import claudio from '../../assets/personal/claudio.png';
 import nick from '../../assets/personal/nick.png';
 import hiroshi from '../../assets/personal/hiroshi.png';
 import { Link } from 'react-router-dom';
+
 
 export const AboutComp = () => {
     return (

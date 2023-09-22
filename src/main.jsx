@@ -1,13 +1,19 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import { Routes, Route } from "react-router-dom";
+import { App } from "./App.jsx";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { HashRouter } from "react-router-dom";
 
-import ReactDOM from 'react-dom/client';
-import {App} from './App.jsx';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from 'react-router-dom';
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-      <App />
-  </BrowserRouter>
-)
+root.render(
+  <HashRouter>
+    <React.StrictMode>
+      <Routes>
+        <Route path="*" element={<App />} />
+      </Routes>
+    </React.StrictMode>
+  </HashRouter>
+);

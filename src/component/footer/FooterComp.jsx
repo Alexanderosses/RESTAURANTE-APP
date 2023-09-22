@@ -1,4 +1,4 @@
-import './footerComp.css';
+import '../../app.css';
 import logo_small from '../../assets/logo_small.png';
 
 

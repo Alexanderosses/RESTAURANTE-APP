@@ -5,12 +5,11 @@ import Row from 'react-bootstrap/Row';
 import { Link } from 'react-router-dom';
 
 // OWN
-import './CardComp.css';
+import '../../app.css';
 import data from '../../menu.json'; 
 
 export const CardComp = () => {
-  // Obtén los primeros 4 elementos del array menuplate
-  const firstFourPlatos = data.platos.slice(0, 6); // Obténemos los primeros 4 elementos
+  const firstFourPlatos = data.platos.slice(0, 6); // Obténemos los primeros 6 elementos
 
   return (
       <div className='container'>
@@ -19,7 +18,7 @@ export const CardComp = () => {
           {firstFourPlatos.map((platos, idx) => (
             <Col key={idx}>
               <div>                  
-                <Link to={`/APP-RESTAURANTE/PlateDetails/${platos.item}`}>
+                <Link to={`/PlateDetails/${platos.item}`}>
                   <Card className='bodyCard h-100'>
                     <Card.Body className='d-flex flex-column'>
                       <Row>

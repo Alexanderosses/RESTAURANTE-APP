@@ -9,11 +9,11 @@ export const titleContact = "Datos de Contacto"
 
 /* MENU */
 export const menuList = [
-    {item: 'Home', url:'/APP-RESTAURANTE/'},
-    {item: 'Menú', url:'/APP-RESTAURANTE/Menu'},
-    {item: 'Reserva', url:'/APP-RESTAURANTE/Reservation'},
-    {item: 'Contacto', url:'/APP-RESTAURANTE/Contact'},
-    {item: 'Nosotros', url:'/APP-RESTAURANTE/Aboutus'},
+    {item: 'Home', url:'/'},
+    {item: 'Menú', url:'/Menu'},
+    {item: 'Reserva', url:'/Reservation'},
+    {item: 'Contacto', url:'/Contact'},
+    {item: 'Nosotros', url:'/Aboutus'},
 ]
 
 /* LIST MENU */

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
-import './ReserComp.css';
+import '../../app.css';
 
 export const ReserComp = () => {
   const [validated, setValidated] = useState(false);
