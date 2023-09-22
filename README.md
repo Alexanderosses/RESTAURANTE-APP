@@ -53,4 +53,4 @@ GoogleFonts
 ////////////////////  WIREFRAME  
 
 Se incluye wireframe en alta.
-wireframe.png
+https://github.com/Alexanderosses/RESTAURANTE-APP/blob/main/wireframe.png
