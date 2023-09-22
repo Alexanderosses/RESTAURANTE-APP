@@ -1,5 +1,5 @@
 // OWN
-import './AboutComp.css'
+import './AboutComp.css';
 import marcelo from '../../assets/personal/marcelo.png';
 import claudio from '../../assets/personal/claudio.png';
 import nick from '../../assets/personal/nick.png';

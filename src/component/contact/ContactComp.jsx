@@ -1,5 +1,5 @@
 // OWN
-import './ContactComp.css'
+import './ContactComp.css';
 
 export const ContactComp = () => {
   return (

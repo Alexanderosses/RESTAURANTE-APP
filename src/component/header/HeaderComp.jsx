@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
 // OWN
-import './HeaderComp.css'
+import './HeaderComp.css';
 import {menuList} from '../../constvar.js'; 
 import logo from '../../assets/logo-app.png';
 import PropTypes from 'prop-types';
