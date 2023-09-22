@@ -21,8 +21,6 @@ export const Contact = () => {
       <ContactComp />
       <FooterComp />
     </div>
-
-
   )
 }
 

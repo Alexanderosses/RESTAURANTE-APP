@@ -1,6 +1,7 @@
 {
   "name": "restaurant-app",
   "private": true,
+  "homepage": "https://alexanderosses.github.io/RESTAURANTE-APP/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
