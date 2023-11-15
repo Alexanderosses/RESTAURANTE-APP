@@ -2,26 +2,29 @@ import './App.css';
 import { Navigate, Routes, Route } from 'react-router-dom';
 import { HeaderComp } from './component/header/HeaderComp.jsx';
 import { Home } from './routes/Home';
-import { Menu } from './routes/Menu';
+import { Modelos } from './routes/Modelos.jsx';
 import { Reservation } from './routes/Reservation';
 import { Contact } from './routes/Contact';
 import { Aboutus } from './routes/Aboutus';
-import { PlateDetails } from './routes/PlateDetails';
+
+import { ProductDetails } from './routes/ProductDetails';
+
+
 
 export const App = () => {
   const menuFrase = [
-    { item: "Abierto todos los días del año" }
+    { item: "full electromovilidad" }
   ];
   return (
     <>
       <HeaderComp menuFrase={menuFrase} />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/Menu' element={<Menu />} />
+        <Route path='/Modelos' element={<Modelos />} />
         <Route path='/Reservation' element={<Reservation />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Aboutus' element={<Aboutus />} />
-        <Route path='/PlateDetails/:item' element={<PlateDetails />} />
+        <Route path='/ProductDetails/:item' element={<ProductDetails />} />
         <Route path='/*' element={<Navigate to='/' />} />
       </Routes>
     </>

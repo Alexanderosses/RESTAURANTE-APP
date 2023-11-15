@@ -2,6 +2,7 @@
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
 
 // OWN
 import '../../app.css';
@@ -13,7 +14,7 @@ export const HeaderComp = ( {menuFrase} ) => {
     const frase = menuFrase && menuFrase.length > 0 ? menuFrase[0].item : '';
 
     return (
-        <div className='container-fluid g-0 fixed'>
+        <Container fluid className='g-0 fixed'>
             <Navbar.Brand className='headerLogo justify-content-center'>
                 <Link to='/'>
                     <img src={logo} alt='Imagen Logo' className='logoHeader' />
@@ -24,7 +25,7 @@ export const HeaderComp = ( {menuFrase} ) => {
             <Navbar expand="lg" className="headerMenu">                
                 <Navbar.Toggle aria-controls="basic-navbar-nav"> <strong className='menu-text'>MENÚ</strong> </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mx-auto justify-content-center">
+                    <Nav className="mx-auto ">
                         {menuList.map((menu, index) => (
                         <Nav.Link as={Link} to={menu.url} key={index} className='menu'>
                             {menu.item}
@@ -33,9 +34,7 @@ export const HeaderComp = ( {menuFrase} ) => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            
-            <div className='headerMenuTriangleTop'></div>
-        </div>
+        </Container>
     );
 };
 

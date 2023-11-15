@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import '../../app.css';
+import { Container } from 'react-bootstrap';
 
 export const ReserComp = () => {
   const [validated, setValidated] = useState(false);
@@ -18,7 +19,7 @@ export const ReserComp = () => {
   };
 
   return (
-    <div className='container g-0'>
+    <Container className='g-0 fondo-1'>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
 
       <Row className="mb-3">        
@@ -89,16 +90,16 @@ export const ReserComp = () => {
         </Form.Group>
 
         <Form.Group as={Col} md="8" className="mb-3">
-          <Form.Check className='textForm' required label=" Consiento la recepción de comunicaciones del restaurante por e-mail y/o SMS con fines comerciales" feedback="Debes aceptar antes de enviar." feedbackType="invalid"/>
+          <Form.Check className='textForm' required label=" Consiento la recepción de comunicaciones de RACER por e-mail y/o SMS con fines comerciales" feedback="Debes aceptar antes de enviar." feedbackType="invalid"/>
         </Form.Group>
       </Row>    
-
-      <div className='cardButton'>
-              <button type="submit" className='button'>Reservar</button>
-      </div>    
+      
+      <Col className='cardButton'>
+              <button type="submit" className='btn btn-own'>RESERVAR</button>
+      </Col>    
 
       </Form>
-    </div>
+    </Container>
     
   );
 }
