@@ -5,11 +5,12 @@ import Row from 'react-bootstrap/Row';
 
 import '../../app.css';
 import data from '../../menu.json'; 
+import { Container } from 'react-bootstrap';
 
 
 export const MenuComp = () => {
     return (
-        <div className='container'>
+        <Container>
           <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú<br /> Los especiales para hoy</h2>
           <Row xs={1} md={2} className="g-4">
 
@@ -44,6 +45,6 @@ export const MenuComp = () => {
 
           </Row>
        
-        </div>
+        </Container>
       );
     };

@@ -8,6 +8,7 @@ import { Contact } from './routes/Contact';
 import { Aboutus } from './routes/Aboutus';
 import { PlateDetails } from './routes/PlateDetails';
 
+
 export const App = () => {
   const menuFrase = [
     { item: "Abierto todos los días del año" }
