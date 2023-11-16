@@ -3,8 +3,11 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+<<<<<<< HEAD
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+=======
+>>>>>>> ee46f23c73fb8a456005d1a85776ec40f7429922
 
 // OWN
 import '../../app.css';
@@ -27,7 +30,7 @@ export const HeaderComp = ( {menuFrase} ) => {
             <Navbar expand="lg" className="headerMenu">                
                 <Navbar.Toggle aria-controls="basic-navbar-nav"> <strong className='menu-text'>MENÚ</strong> </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mx-auto justify-content-center">
+                    <Nav className="mx-auto ">
                         {menuList.map((menu, index) => (
                         <Nav.Link as={Link} to={menu.url} key={index} className='menu'>
                             {menu.item}
@@ -36,8 +39,11 @@ export const HeaderComp = ( {menuFrase} ) => {
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
+<<<<<<< HEAD
             
             <div className='headerMenuTriangleTop'></div>
+=======
+>>>>>>> ee46f23c73fb8a456005d1a85776ec40f7429922
         </Container>
     );
 };

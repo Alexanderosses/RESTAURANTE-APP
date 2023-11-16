@@ -17,7 +17,6 @@ export const Contact = () => {
           <div className="col-md-8 mx-auto ">
             <FormContact />
           </div>
-
       </div>
       <ContactComp />
       <FooterComp />

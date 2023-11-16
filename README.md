@@ -1,28 +1,34 @@
-////////////////////  PROYECTO APP RESTAURANTE - REACT, PROPS, USESTATE 
+////////////////////  PROYECTO TIENDA EN LINEA  ////////////////////
+REACT JS, PROPS, USESTATE, AXIOS, MONGOOSE, PROPTYPES, USEEFFECT, REACT BOOTSTRAP, NODE, MONGODB, EXPRESS JS, MONGO ATLAS, PASARELA DE PAGO MERCADOLIBRE, RENDER, CSS, FIGMA.
 
-En mi reciente proyecto desarrollado en React, implementé una solución tecnológica que aprovechaba intensivamente las funcionalidades de React, específicamente haciendo uso de las propiedades (props) y el estado local (useState) para crear una aplicación web altamente interactiva. Para cargar y mostrar datos de platos de manera dinámica en la interfaz de usuario, incorporé un archivo JSON que actuaba como fuente de datos. Esto nos permitió una gestión eficaz y escalable de la información sobre los platos, incluyendo sus nombres, descripciones, precios y categorías.
+Como desarrollador de TI, les presento con entusiasmo el último proyecto: una tienda en línea construida con tecnologías líderes en la industria para ofrecer una experiencia de compra en línea excepcional. En el frontend, aprovechamos React JS, utilizando Props, useState, useEffect y PropTypes para crear una interfaz de usuario dinámica y receptiva. La implementación de React Bootstrap garantiza una experiencia elegante.
 
-Adicionalmente, para mejorar la modularidad y el mantenimiento del código, implementé un archivo de variables que almacenaba configuraciones y valores constantes utilizados en todo el proyecto. Esto garantizó un código más limpio y organizado, facilitando la personalización de la aplicación sin la necesidad de cambios extensos. En resumen, el proyecto en React fue una demostración de cómo el uso experto de props, useState, archivos JSON y variables contribuye a la construcción de aplicaciones web dinámicas y eficientes desde el punto de vista del desarrollo.
+En el backend, optamos por Node y Express JS con MongoDB y Mongo Atlas, ofreciendo una infraestructura sólida y escalable. Axios y Mongoose facilitan la gestión eficiente de datos, garantizando coherencia y eficiencia. La integración de una pasarela de pago confiable de MercadoLibre brinda opciones seguras y convenientes durante las transacciones.
+
+La atención al rendimiento se refleja en el uso de tecnologías de renderización eficiente. El diseño estético se logra con prácticas de diseño CSS, y Figma ha sido fundamental para la planificación visual. 
+
+En resumen, nuestra tienda en línea representa una fusión de innovación y funcionalidad. Estamos emocionados de ofrecerles una plataforma que redefine las compras en línea, brindando una experiencia excepcionalmente diseñada desde el frontend hasta el backend. ¡Bienvenidos a la nueva era de las compras digitales!
 
 
 ////////////////////  DIRECCIÓN GITHUB PAGE  
 
-https://alexanderosses.github.io/RESTAURANTE-APP/
 
 ////////////////////  DIRECCIÓN GITHUB
 
-https://github.com/Alexanderosses/RESTAURANTE-APP
-
+https://github.com/Alexanderosses/TIENDA-EN-LINEA
 
 ////////////////////  LIBRERIAS UTILIZADAS  
 
-React
+React JS
 Vite
 
 ////////////////////  FRAMEWORK UTILIZADO  
 
 Bootstrap V5.3.1
-https://getbootstrap.com/
+https://react-bootstrap.netlify.app/
+
+Vite
+https://vitejs.dev/
 
 
 ////////////////////  HERRAMIENTAS COMPLEMENTARIAS  
@@ -37,7 +43,7 @@ Figma: para la creacion del prototipo
 https://www.figma.com/
 
 Fuentes: googleFonts
-https://fonts.google.com/specimen/Kanit
+https://fonts.google.com/specimen/Ubuntu
 
 
 ////////////////////  TECNOLOGIAS APLICADAS  
@@ -45,8 +51,8 @@ https://fonts.google.com/specimen/Kanit
 HTML 5
 JavaScript
 CSS
-Bootstrap
-React
+React Bootstrap
+React JS
 Vite
 GoogleFonts
 

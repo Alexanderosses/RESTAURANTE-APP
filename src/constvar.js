@@ -10,7 +10,7 @@ export const titleContact = "Datos de Contacto"
 /* MENU */
 export const menuList = [
     {item: 'Home', url:'/'},
-    {item: 'Menú', url:'/Menu'},
+    {item: 'Modelos', url:'/Modelos'},
     {item: 'Reserva', url:'/Reservation'},
     {item: 'Contacto', url:'/Contact'},
     {item: 'Nosotros', url:'/Aboutus'},

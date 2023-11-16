@@ -90,13 +90,13 @@ export const ReserComp = () => {
         </Form.Group>
 
         <Form.Group as={Col} md="8" className="mb-3">
-          <Form.Check className='textForm' required label=" Consiento la recepción de comunicaciones del restaurante por e-mail y/o SMS con fines comerciales" feedback="Debes aceptar antes de enviar." feedbackType="invalid"/>
+          <Form.Check className='textForm' required label=" Consiento la recepción de comunicaciones de RACER por e-mail y/o SMS con fines comerciales" feedback="Debes aceptar antes de enviar." feedbackType="invalid"/>
         </Form.Group>
       </Row>    
-
-      <div className='cardButton'>
-              <button type="submit" className='button'>Reservar</button>
-      </div>    
+      
+      <Col className='cardButton'>
+              <button type="submit" className='btn btn-own'>RESERVAR</button>
+      </Col>    
 
       </Form>
     </Container>
